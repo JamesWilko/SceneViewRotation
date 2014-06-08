@@ -11,7 +11,7 @@ public class SceneViewRotation {
 	const float BUTTON_HEIGHT_OFFSET = 106f;
 	const float BUTTON_WIDTH = 22f;
 	const float BUTTON_HEIGHT = 22f;
-	const string PATH = "Assets/EditorExtensions/Resources/";
+	const string PATH = "Assets/Plugins/SceneViewRotation/Resources/";
 	const string ROTATION_TOOLTIP = "Rotate view {0} by {1}�";
 	const string RESET_TOOLTIP = "Reset the camera rotation";
 
@@ -99,8 +99,6 @@ public class SceneViewRotation {
 			}
 
 		}
-
-		sceneView.Repaint();
 
 	}
 
